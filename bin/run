@@ -1,0 +1,8 @@
+#!/Users/ryanwhitney/Documents/GitHub/Flatiron_Project_1/bin/run ruby 
+
+# require the environment file
+require_relative '../config/environment'
+require_relative '../lib/app'
+
+test = Dog.new("Ryan", "Black Lab")
+test.say_name
